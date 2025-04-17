@@ -26,6 +26,7 @@ class CreateProductLine extends Component
         $this->showModal = false;
         # Ban ra event
         $this->dispatch('product-line-created');
+        flash()->success('Thêm thành công!');
     }
 
 
